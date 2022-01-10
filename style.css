@@ -1,0 +1,341 @@
+body{
+    height: 100%;
+    padding: 0;
+    margin:0;
+    overflow-x: hidden;
+}
+.shopfor{
+    display: inline-block;
+}
+.nav-link:hover{
+   color: brown;
+   font-weight: bold;
+}
+.navbar{
+    width:100%;
+    height:50px;
+    z-index: 1;
+    opacity: 0.8;
+}
+.navbar-brand{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+}
+.container-fluid{
+    width: 100%;
+    padding-left: 0px;
+    height: 100vh;
+}
+.green{
+    background: url('bgf.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width:100%;
+    padding-top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    opacity: 0.85;
+}
+h1 {
+    position: relative;
+    font-size: 34px;
+    background-color:transparent;
+    color:black;
+    top: 140px;
+    right: 38px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+.txt-rotate{
+    color: brown;
+}
+  .blue{
+    height:90vh;
+    background-color:white;
+    opacity: 0.9;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.rowHeight{
+    height: 150px;
+}
+
+.slider {
+    height:400px;
+    width:600px;
+    opacity: 1;}
+    
+
+.pr{
+    font-weight: bold;
+    font-size: 12px;
+}
+  .price{
+    font-size: 10px;
+}
+
+ .blue:hover {
+    background-color: rgba(105, 52, 56, 0.35);
+}
+  
+  .blue  {
+    
+    position: relative;
+    overflow:initial;
+}
+.smart{
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.089);
+    border-radius: 8px;
+}
+
+  .ora{
+    height:1000px;
+    display: block;
+    padding: 0;
+    margin:0;
+}
+  .store{
+    height:180px;
+    background-color: rgb(241, 237, 236,0.8);
+    justify-content: center;
+    text-align: center;
+    padding-bottom:10%;
+}
+  .st{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    padding-top:20px;
+}
+.foot{
+    background-color:white;
+    opacity: 0.8;
+    height:350px;
+}
+  .last{
+    height:970px;
+    background-color: black;
+    color:#2c2e2c;
+}
+.tv{
+    font-size: 17px;
+    letter-spacing:0.2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 30px; */
+}
+.tz{
+    font-size: 20px;
+    letter-spacing:0.2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+    font-weight: bold;
+    opacity: 1;
+}
+  .rs{
+    height: 28px;
+}
+  .rw{
+    height:15px;
+}
+  .intro{
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+}
+  .text{
+    color:white;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background-color:#2c2e2c;
+    color: white;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+  .tn{
+    padding: 13px;
+    font-size: 9px;
+}
+section{
+    display: inline-block;
+    width:100%;
+    height:400px;
+    padding:2% 0%;
+}
+.aboutus{
+    display:flex;
+}
+
+
+
+@media (min-width: 992px){
+
+    .navbar{
+     height:50px;
+     font-size: 15px;
+     width: 100%;
+     color:black;
+     padding-top: 10px;
+     background-color: white;
+     position: fixed;
+     opacity: 0.9;
+     z-index:  1;
+   }
+ .navbar-brand{
+   font-family: 'Libre Baskerville', serif;
+   font-size: 25px;
+ }
+ 
+     h1 {
+      position: absolute;
+      font-size: 80px;
+      background-color:transparent;
+      color:black;
+      top:230px;
+      right: 260px;
+      border-radius: 10px;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      overflow: hidden;
+  }
+  .green{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100%;
+    padding-top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    opacity: 0.85;
+  }
+  .blue{
+    height:100vh;
+    background-color:white;
+    opacity: 0.9;
+    text-align: center;
+  }
+  .rowHeight{
+    height: 100vh;
+  }
+  
+  .store{
+    height:170px;
+    background-color: #f5f1f0;
+    text-align: center;
+ }
+  .st{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    padding-top:20px;
+ 
+  }
+ 
+ .loc{
+   background-color: black;
+   height: 15px;
+ }
+  .ora{
+    height: 550px;
+  }
+  .foot{
+    background-color: white;
+    opacity: 0.8;
+    height: 200px;
+ 
+  }
+  .tv{
+    font-size: 17px;
+    letter-spacing:0.2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+  .tz{
+    font-size: 20px;
+    letter-spacing:0.2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+  }
+  .last{
+    height:300px;
+    background-color: black;
+    color:white;
+  }
+  .rs{
+    height: 28px;
+  }
+  .rw{
+    height:15px;
+  }
+  .intro{
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .text{
+    color:white;
+  }
+ 
+ .footer {
+   position:relative;
+   width: 100%;
+   background-color:#2c2e2c;
+   color: white;
+   height: 50vh;
+ }
+ .tn{
+   padding: 13px;
+   font-size: 15px;
+ }
+ .sr{
+     color:brown;
+ }
+ .nav-link:hover{
+    background-color: rgba(165, 42, 42, 0.25);
+    border-radius: 8px;
+    font-weight: bold;
+ }
+  .cart{
+      float: right;
+  }
+  .cart:hover{
+      color: brown;
+  }
+    .img {
+        padding: auto;
+        transform: scale(1);
+        transition: transform .5s;
+      }
+      
+      .img:hover {
+        transform: scale(1.415);
+      }
+      .pr{
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .price{
+        font-size: 15px;
+      }
+    .smart{
+        text-align: center;
+        background-color: rgba(165, 42, 42, 0.089);
+    }
+    .slider {
+        height:400px;
+        width:600px;
+        opacity: 1;}
+}
